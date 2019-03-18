@@ -1,0 +1,1 @@
+<h1>@lang('general.email-verification-first')</h1>

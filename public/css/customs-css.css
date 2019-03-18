@@ -1,0 +1,188 @@
+body{
+	padding-right: 0px !important;
+}
+.header{
+	background: #1C2B36 !important;
+}
+.hamburger .line {
+    background-color: #fff;
+}
+.header-icon {
+    color: #fff;
+}
+.sidebar{
+	background: #1C2B36 !important;
+}
+.logo {
+    background: #1C2B36 !important;
+}
+.form-control{
+	height: 42px !important;
+}
+.text-muted {
+    color: #141515 !important;
+    font-weight: bold;
+}
+.card-title h2{
+	color:#312f48;
+	margin-bottom: 10px;
+}
+select,input{
+	font-size:14px !important;
+}
+.modal-dialog {
+    top: 0;
+}
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    
+    vertical-align: middle !important;
+}
+
+.modal-header h4.modal-title {
+    float: left !important;
+    position: absolute;
+}
+
+.modal-header .bootbox-close-button {
+    margin-right: 0;
+    margin-top: 0;
+    float: right !important;
+}
+.btn-default.active, .btn-default:focus, .btn-default:hover {
+    background: #fff;
+    border-color: #e8e1e1;
+    color: #332f2f;
+    box-shadow: none;
+}
+.btn-default {
+    background: #fff;
+    border-color: #e8e1e1;
+    color: #332f2f;
+    line-height: 34px;
+}
+.purcheseCashMemo{
+    text-align: center;
+}
+.purcheseCashMemo > h1,h2{
+    text-transform: uppercase;
+}
+.purcheseCashMemo > h1,h2,h4,p{
+    margin-bottom: 0;
+}
+.purcheseCashMemo > p{
+    font-weight: bold;
+    color: #373757;
+    font-size: 18px;
+}
+.purcheseCashMemo > h2,h4{
+    font-style: italic;
+}    
+.purcheseCashMemo > h1{
+    font-size: 32px !important;
+}
+.purcheseCashMemo > h2{
+    font-size: 24px !important;
+}
+.purcheseCashMemo > h4{
+    font-size: 16px !important;
+}
+.clientPurchesPage > label{
+    margin-bottom: 0;
+    font-size: 18px;
+    padding: 3px;
+    color: #373757;
+}
+.clientPurchesPage > label > span{
+    float: right;
+    font-weight: bold;
+}
+.clientPurchesPage > table > tbody > tr > td{
+    text-align:left;
+    padding: 0;
+    padding-left: 5px;
+    border: unset;
+    font-size: 18px;
+}
+.voucherTable > tbody > tr > td, .voucherTable > tbody > tr > th, .voucherTable > tfoot > tr > td, .voucherTable > tfoot > tr > th, .voucherTable > thead > tr > td, .table > thead > tr > th {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    vertical-align: middle !important;
+    font-size: 18px;
+}
+.page-title >h1{
+    width:50%;
+    float:left;
+}
+.page-title >span{
+    width:50%;
+    float:right;
+}
+.authorNameClass{
+    margin-top:20px;
+}
+.authorNameClass h1{
+    border-bottom: 1px solid #000;
+}
+@media print {
+    #printableArea{
+        width: 100%;
+    }
+    .firstTable{
+        width: 65%;
+        float:left;
+    }
+    .secoundTable{
+        width:35%;
+        float:right;
+    }
+
+    .purcheseCashMemo > p{
+        font-size: 20px;
+    }
+    .purcheseCashMemo > h2,h4{
+        font-style: italic;
+    }    
+    .purcheseCashMemo > h1{
+        font-size: 32px !important;
+    }
+    .purcheseCashMemo > h2{
+        font-size: 24px !important;
+    }
+    .purcheseCashMemo > h4{
+        font-size: 16px !important;
+    }
+    .clientPurchesPage > label{
+        font-size: 20px;
+    }
+    .clientPurchesPage > label > span{
+        float: right;
+        font-weight: bold;
+    }
+    .clientPurchesPage > table > tbody > tr > td{
+        font-size: 20px;
+    }
+    .voucherTable > tbody > tr > td, .voucherTable > tbody > tr > th, .voucherTable > tfoot > tr > td, .voucherTable > tfoot > tr > th, .voucherTable > thead > tr > td, .table > thead > tr > th {
+        font-size: 20px;
+    }
+}
+.modal-content{
+    outline: 12px solid #009688;
+    outline-offset: -12px;
+    padding: 10px;
+}
+.sidebar.sidebar-hide-to-small.sidebar-shrink.sidebar-gestures {
+    font-size: 16px;
+    color:#fff;
+    min-height: 100vh;
+
+}
+.sidebar .nano-content>ul li>ul {
+    /*background: rgba(52, 57, 87, 0.71)!important;*/
+}
+.sidebar .nano-content>ul li>a{
+    color: #f7f7fb;
+}
+
+.bootbox.modal.fade.bootbox-confirm.in {
+    padding: 20px;
+}

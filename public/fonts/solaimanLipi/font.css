@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'SolaimanLipi';
+	src: url('SolaimanLipi.woff') format('woff'),
+	url('SolaimanLipi.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+*{
+	font-family: 'SolaimanLipi';	
+}
+table{
+	font-family: 'SolaimanLipi';
+}
+table tbody tr td {
+    font-family: 'SolaimanLipi';
+}
+
+p{
+	font-family: 'SolaimanLipi';
+}
